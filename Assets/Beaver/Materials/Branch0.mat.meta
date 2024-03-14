@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 45bf2d2ef496b1e4085485c7af4f25d4
+timeCreated: 1521054393
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Materials/Branch0.mat
+  uploadId: 235611

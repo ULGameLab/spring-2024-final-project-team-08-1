@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5cda07beefd7c7644ba5adc5697fe6ed
+timeCreated: 1521020317
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Scripts/CameraLookAt.cs
+  uploadId: 235611

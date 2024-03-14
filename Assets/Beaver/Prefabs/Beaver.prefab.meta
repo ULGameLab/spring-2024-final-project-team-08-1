@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b47f92e656b2c7d469039d73b1603a85
+timeCreated: 1521121362
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Prefabs/Beaver.prefab
+  uploadId: 235611

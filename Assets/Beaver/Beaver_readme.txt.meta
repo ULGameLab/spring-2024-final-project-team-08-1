@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ed14590560d441e46ae667bce8dba007
+timeCreated: 1521197112
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Beaver_readme.txt
+  uploadId: 235611

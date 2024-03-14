@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e565d563388250947bd8a57b7e095f2b
+timeCreated: 1521054393
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Materials/Leaves.mat
+  uploadId: 235611

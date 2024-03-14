@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d832e215b0ae4443936c352ecd87eee
+timeCreated: 1521061437
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Materials/acorn2.mat
+  uploadId: 235611

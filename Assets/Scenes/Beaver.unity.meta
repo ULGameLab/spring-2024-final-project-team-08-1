@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 999994445168cf4469c3d4c6f9ecdce8
+timeCreated: 1520850105
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Scenes/Beaver.unity
+  uploadId: 235611

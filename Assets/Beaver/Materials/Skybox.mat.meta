@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b5ff1c7201df64d4fa70566cc939a79d
+timeCreated: 1520849747
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Materials/Skybox.mat
+  uploadId: 235611

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd47f668fb26ad94698031ff8fc00801
+timeCreated: 1520850031
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Materials/Ground.mat
+  uploadId: 235611

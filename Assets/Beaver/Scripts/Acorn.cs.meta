@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e28cc8610da046e41a32416cb0920e42
+timeCreated: 1521111395
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Scripts/Acorn.cs
+  uploadId: 235611

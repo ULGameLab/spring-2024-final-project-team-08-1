@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ea0a2a68e1dda14f9fd655137c4a941
+timeCreated: 1521054393
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114136
+  packageName: Beaver
+  packageVersion: 5.3.8p2
+  assetPath: Assets/Beaver/Materials/Trunk.mat
+  uploadId: 235611
