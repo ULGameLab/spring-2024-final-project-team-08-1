@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72792
+  packageName: Low Poly Flare Gun
+  packageVersion: 1.0
+  assetPath: Assets/Flare Gun/Materials/FG_Trigger.mat
+  uploadId: 139797

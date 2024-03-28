@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 62e42ec82648745409860afddf6d42eb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - coinPrefab: {fileID: 6074372341279979795, guid: e6bc345066ab91d4dbd9a7bb424c35e1,
+      type: 3}
+  - coinPrefab2: {fileID: 1951137524158241548, guid: df3a5be6002bc74468f936e244cf9001,
+      type: 3}
+  - fruitPrefab: {fileID: 3557864328475058860, guid: 0d5cd6f797e1f3f4e8bb9d3a7fab8eaa,
+      type: 3}
+  - badPrefab: {fileID: 2813289177433634764, guid: 4dc557e61bc74244b9023bbcaa367a21,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
