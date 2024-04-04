@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Scavenger
+  - Bullet
+  - Fire
+  - Enemy
   layers:
   - Default
   - TransparentFX

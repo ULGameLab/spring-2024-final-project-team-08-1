@@ -63,6 +63,11 @@ public class NutriaAI : MonoBehaviour
             // You can add a delay here and then call a respawn or destroy method
             // For example: Invoke(nameof(Respawn), 5f);
         }
+
+        if (other.gameObject.CompareTag("Bullet")) 
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     // Example respawn method
