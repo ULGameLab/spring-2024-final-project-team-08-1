@@ -6,19 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UI.unity
-    guid: de047c339907c7345bb650b9747bd7b1
-  - enabled: 1
-    path: Assets/Scenes/Beaver.unity
-    guid: 999994445168cf4469c3d4c6f9ecdce8
-  - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: bae6f85fa1f3d1543ad88811106db319
-  - enabled: 1
-    path: Assets/Scenes/GameInfo.unity
-    guid: dee39135b341cfb4d9357f18f1e61f00
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: a52430be82d6b5b4e89e8b0ad4e80388
+    path: Assets/Scenes/The_Viking_Village.unity
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0
