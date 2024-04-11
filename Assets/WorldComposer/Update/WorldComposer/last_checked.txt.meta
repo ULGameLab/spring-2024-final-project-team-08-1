@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97b8021122c517c4db00e74a392cc81c
+timeCreated: 1502091096
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Update/WorldComposer/last_checked.txt
+  uploadId: 483130

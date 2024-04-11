@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 82478801b7b65be4e89392907feaea8c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/Mathw.cs
+  uploadId: 483130

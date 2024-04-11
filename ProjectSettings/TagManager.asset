@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Scavenger
+  - Trash
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - interactableLayer
   - Water
   - UI
   - 

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b14ab521b0aabce49ba091ba4fd3386d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/Draw.cs
+  uploadId: 483130
