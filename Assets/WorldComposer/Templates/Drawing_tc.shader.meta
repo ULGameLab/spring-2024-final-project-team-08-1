@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 21c5cfddf5ec6e04f8337c98cf59915c
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Templates/Drawing_tc.shader
+  uploadId: 483130

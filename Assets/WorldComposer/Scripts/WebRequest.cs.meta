@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6a590e329550d42488b6fa2bd718c2e6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/WebRequest.cs
+  uploadId: 483130

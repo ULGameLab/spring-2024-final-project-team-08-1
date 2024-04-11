@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 08f23513142576a4680d8cdf2bd0676b
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/WorldComposer Release Notes.txt
+  uploadId: 483130

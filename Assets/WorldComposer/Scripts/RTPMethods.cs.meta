@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ea2149ce10788c842b6bb05ef6851220
+timeCreated: 1518679306
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/RTPMethods.cs
+  uploadId: 483130

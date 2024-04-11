@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 28429c7d28adcf14a80a365546a9746a
+timeCreated: 1517825675
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/TerrainNeighbors.cs
+  uploadId: 483130

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 85a4520608324b04682979cbc895ce83
+timeCreated: 1517823995
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/Classes.cs
+  uploadId: 483130

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6a1ddd7baf48f704d9580de6d0c5269f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Templates/GlobalSettings.asset
+  uploadId: 483130

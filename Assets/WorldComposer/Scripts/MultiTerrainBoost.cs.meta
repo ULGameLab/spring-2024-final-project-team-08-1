@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: cab064af4e2b3d8499c1f09e02538f64
+timeCreated: 1518679313
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 13238
+  packageName: World Composer
+  packageVersion: 1.88
+  assetPath: Assets/WorldComposer/Scripts/MultiTerrainBoost.cs
+  uploadId: 483130
