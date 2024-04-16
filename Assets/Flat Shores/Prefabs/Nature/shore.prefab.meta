@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 99c56297cef1cdd4ebecbe861f368ea5
+timeCreated: 1464337731
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Nature/shore.prefab
+  uploadId: 119914

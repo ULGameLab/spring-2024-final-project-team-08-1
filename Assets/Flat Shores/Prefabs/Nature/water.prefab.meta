@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bc6d0b75eff32574d81beac7e6af55de
+timeCreated: 1464285063
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Nature/water.prefab
+  uploadId: 119914

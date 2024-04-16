@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 062e641c6214e04438f8984d8a867f0b
+timeCreated: 1464278977
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Cars/suv_01.prefab
+  uploadId: 119914

@@ -1,58 +1,67 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class FPSController : MonoBehaviour
 {
+    [Header("Movement Settings")]
     public float moveSpeed = 5f;
+
+    [Header("Interaction Settings")]
     public Camera playerCamera;
-    public LayerMask interactableLayer; // Set this in the inspector to the layer your trash objects are on.
+    public LayerMask interactableLayer;
+    public float interactionDistance = 2f;
+
+    [Header("Level Management")]
+    public string nextLevelScene = "NextLevel";
 
     private NavMeshAgent agent;
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false; // Player controls direction, not the NavMeshAgent
     }
 
     void Update()
     {
-        MovePlayer();
-        InteractWithObjects();
+        HandleMovement();
+        HandleInteraction();
+        CheckForCheat();
     }
 
-    void MovePlayer()
+    private void HandleMovement()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
-        {
-            agent.Move(transform.forward * moveSpeed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            agent.Move(-transform.forward * moveSpeed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            agent.Move(-transform.right * moveSpeed * Time.deltaTime);
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            agent.Move(transform.right * moveSpeed * Time.deltaTime);
-        }
+        // Calculate movement vector based on input
+        Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        moveDirection = transform.TransformDirection(moveDirection);
+        moveDirection.Normalize();
+
+        // Set the agent's velocity directly for smoother movement
+        agent.velocity = moveDirection * moveSpeed;
     }
 
-    void InteractWithObjects()
+    private void HandleInteraction()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
-            if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, 2f, interactableLayer))
+            // Using a sphere cast for better area coverage
+            if (Physics.SphereCast(playerCamera.transform.position, 0.5f, playerCamera.transform.forward, out hit, interactionDistance, interactableLayer))
             {
                 if (hit.collider.CompareTag("Trash"))
                 {
-                    // Implement the logic for picking up trash or interacting with objects here.
-                    Destroy(hit.collider.gameObject); // Example: just destroy the trash object
+                    Destroy(hit.collider.gameObject); // Destroy the object tagged as "Trash"
                 }
             }
+        }
+    }
+
+    private void CheckForCheat()
+    {
+        if (Input.GetKeyDown(KeyCode.C)) // Activate cheat to load next level
+        {
+            SceneManager.LoadScene(nextLevelScene);
         }
     }
 }

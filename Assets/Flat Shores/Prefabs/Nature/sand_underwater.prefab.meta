@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9d1329cc48413da42a3b8c1a853eedcf
+timeCreated: 1464278772
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Nature/sand_underwater.prefab
+  uploadId: 119914

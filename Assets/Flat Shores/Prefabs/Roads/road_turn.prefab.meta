@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6d4bb0d0d13e5fc4fb426b4e26a64393
+timeCreated: 1464339320
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Roads/road_turn.prefab
+  uploadId: 119914

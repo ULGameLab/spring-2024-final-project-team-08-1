@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02f371119bb5c3c438582563549d798a
+timeCreated: 1464278441
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Nature/grass_01.prefab
+  uploadId: 119914

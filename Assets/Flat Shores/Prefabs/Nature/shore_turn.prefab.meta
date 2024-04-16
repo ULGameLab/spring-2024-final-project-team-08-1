@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 81a68e984ea581a469d718fdba727436
+timeCreated: 1464337748
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Nature/shore_turn.prefab
+  uploadId: 119914

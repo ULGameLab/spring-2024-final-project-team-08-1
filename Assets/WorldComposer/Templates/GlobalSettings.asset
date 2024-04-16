@@ -223,7 +223,7 @@ MonoBehaviour:
     active: 1
     button_parameters: 0
     button_image_editor: 0
-    button_region: 0
+    button_region: 1
     button_image_export: 1
     button_heightmap_export: 1
     button_converter: 0
@@ -235,8 +235,8 @@ MonoBehaviour:
     backgroundColor: {r: 0.6698113, g: 0.6476949, b: 0.6476949, a: 0.9254902}
     titleColor: {r: 0.3315019, g: 0.2993985, b: 0.95522386, a: 0.7647059}
     errorColor: {r: 0.49803922, g: 0.49803922, b: 0.49803922, a: 1}
-    region_popup_edit: 0
-    area_popup_edit: 0
+    region_popup_edit: 1
+    area_popup_edit: 1
     disable_region_popup_edit: 0
     disable_area_popup_edit: 0
     region:
@@ -994,18 +994,18 @@ MonoBehaviour:
         textureFormat: -1
       - name: Louisiana
         upper_left:
-          latitude: 29.274579288817954
-          longitude: -89.98121517896648
+          latitude: 29.26474381668683
+          longitude: -90.05468624830242
         lower_right:
-          latitude: 29.23624143807352
-          longitude: -89.93726986646648
+          latitude: 24.244370501324482
+          longitude: -84.42968624830242
         center:
-          latitude: 29.25542060872921
-          longitude: -89.95924252271648
-        center_height: -24
+          latitude: 26.782304801736693
+          longitude: -87.24218624830242
+        center_height: -26
         size:
-          x: 4267.998218678695
-          y: 4267.678526806806
+          x: 558999.5603531599
+          y: 558998.7543156034
         normalizeHeightmap: 1
         normalizedHeight: 1.0681152
         created: 1
@@ -1024,41 +1024,41 @@ MonoBehaviour:
         heightmap_offset_e: {x: 0, y: 0}
         image_offset_e: {x: 0, y: 0}
         image_stop_one: 0
-        select: 0
+        select: 1
         smooth_strength: 1
         width: 0
         height: 0
-        heightmap_resolution: {x: 512, y: 512}
-        heightmap_scale: 8.335934020856826
-        heightmap_zoom: 14
-        elevation_zoom: 14
+        heightmap_resolution: {x: 1024, y: 1024}
+        heightmap_scale: 545.8980081573827
+        heightmap_zoom: 8
+        elevation_zoom: 8
         heightmap_manual: 0
         area_resolution: 0
-        resolution: 4096
-        image_zoom: 19
+        resolution: 512
+        image_zoom: 7
         image_changed: 0
         start_tile_enabled: 0
         start_tile:
           x: 0
           y: 0
         tiles:
-          x: 4
-          y: 4
+          x: 1
+          y: 1
         export_heightmap_active: 0
         export_heightmap_call: 0
-        export_heightmap_path: C:/Users/missk/OneDrive/Desktop/spring-2024-final-project-team-08-WetlandWarriors/Assets
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Terrains
         export_heightmap_filename: Louisiana
-        export_heightmap_changed: 0
+        export_heightmap_changed: 1
         export_heightmap_not_fit: 0
         export_heightmap_bres: {x: 0, y: 0}
         export_image_active: 0
         export_image_call: 0
-        export_image_path: C:/Users/missk/OneDrive/Desktop/spring-2024-final-project-team-08-WetlandWarriors/Assets
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Terrains
         export_image_filename: Louisiana
-        export_image_changed: 0
+        export_image_changed: 1
         export_image_import_settings: 0
         export_image_world_file: 0
-        export_terrain_path: C:/Users/missk/OneDrive/Desktop/spring-2024-final-project-team-08-WetlandWarriors/Assets/Terrains
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Terrains/Terrains
         export_terrain_changed: 0
         export_to_terraincomposer: 1
         import_heightmap_path_full: 
@@ -1098,21 +1098,21 @@ MonoBehaviour:
           m_RotationOrder: 4
         do_heightmap: 1
         do_image: 1
-        terrain_heightmap_resolution_select: 2
-        terrain_heightmap_resolution: 129
+        terrain_heightmap_resolution_select: 5
+        terrain_heightmap_resolution: 1025
         terrain_heightmap_resolution_changed: 0
         mipmapEnabled: 1
-        terrain_done: 1
+        terrain_done: 0
         filterMode: 2
         anisoLevel: 9
-        maxTextureSize: 4096
-        maxTextureSize_select: 7
+        maxTextureSize: 512
+        maxTextureSize_select: 4
         maxTextureSize_changed: 0
         auto_import_settings_apply: 1
         preimage_export_active: 0
         preimage_apply: 0
         preimage_save_new: 0
-        preimage_path: Louisiana
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Terrains
         preimage_path_changed: 0
         preimage_filename: 
         preimage_count: 0
@@ -1492,6 +1492,131 @@ MonoBehaviour:
         preimage_filename: 
         preimage_count: 0
         textureFormat: 0
+      - name: Untitled11
+        upper_left:
+          latitude: 0
+          longitude: 0
+        lower_right:
+          latitude: 0
+          longitude: 0
+        center:
+          latitude: 29.356350311285865
+          longitude: -90.11511105298992
+        center_height: 0
+        size:
+          x: 0
+          y: 0
+        normalizeHeightmap: 1
+        normalizedHeight: 0
+        created: 0
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 0, y: 0}
+        heightmap_scale: 0
+        heightmap_zoom: 0
+        elevation_zoom: 0
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 0
+          y: 0
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: Untitled11
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: Untitled11
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Untitled11
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 33
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 0
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 2048
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
       area_popup:
       - Crazy Peak
       - EaglePeak
@@ -1503,6 +1628,7 @@ MonoBehaviour:
       - Untitled8
       - Untitled9
       - Untitled10
+      - Untitled11
       area_select: 6
       center:
         latitude: 40.3789263625942
@@ -2025,11 +2151,799 @@ MonoBehaviour:
       center:
         latitude: 34.0039797234456
         longitude: -119.93717956543
+    - name: GrandIsle
+      area:
+      - name: Untitled1
+        upper_left:
+          latitude: 0
+          longitude: 0
+        lower_right:
+          latitude: 0
+          longitude: 0
+        center:
+          latitude: 29.24552366489727
+          longitude: -89.91677971743043
+        center_height: 0
+        size:
+          x: 0
+          y: 0
+        normalizeHeightmap: 1
+        normalizedHeight: 0
+        created: 0
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 0, y: 0}
+        heightmap_scale: 0
+        heightmap_zoom: 0
+        elevation_zoom: 0
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 0
+          y: 0
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: Untitled1
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: Untitled1
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Untitled1
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 0
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 0
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 0
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: 
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      area_popup:
+      - Untitled1
+      area_select: 0
+      center:
+        latitude: 29.248371853701904
+        longitude: -89.97325438261028
+    - name: Untitled5
+      area:
+      - name: Untitled1
+        upper_left:
+          latitude: 0
+          longitude: 0
+        lower_right:
+          latitude: 0
+          longitude: 0
+        center:
+          latitude: 29.248371853701904
+          longitude: -89.97325438261028
+        center_height: 0
+        size:
+          x: 0
+          y: 0
+        normalizeHeightmap: 1
+        normalizedHeight: 0
+        created: 0
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 0, y: 0}
+        heightmap_scale: 0
+        heightmap_zoom: 0
+        elevation_zoom: 0
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 0
+          y: 0
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: Untitled1
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: Untitled1
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Untitled1
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 33
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 0
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 2048
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      area_popup:
+      - Untitled1
+      area_select: 0
+      center:
+        latitude: 29.248371853701904
+        longitude: -89.97325438261028
+    - name: Untitled6
+      area:
+      - name: Untitled1
+        upper_left:
+          latitude: 0
+          longitude: 0
+        lower_right:
+          latitude: 0
+          longitude: 0
+        center:
+          latitude: 29.252217250097615
+          longitude: -90.00432701967652
+        center_height: 0
+        size:
+          x: 0
+          y: 0
+        normalizeHeightmap: 1
+        normalizedHeight: 0
+        created: 0
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 0, y: 0}
+        heightmap_scale: 0
+        heightmap_zoom: 0
+        elevation_zoom: 0
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 0
+          y: 0
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: Untitled1
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: Untitled1
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Untitled1
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 0
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 0
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 0
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      area_popup:
+      - Untitled1
+      area_select: 0
+      center:
+        latitude: 29.252217250097615
+        longitude: -90.00432701967652
+    - name: Louisiana
+      area:
+      - name: GrandIsle
+        upper_left:
+          latitude: 29.239246721224696
+          longitude: -90.06355019472535
+        lower_right:
+          latitude: 29.191305624774465
+          longitude: -89.98664589785035
+        center:
+          latitude: 29.21527958809407
+          longitude: -90.02509804628785
+        center_height: -24
+        size:
+          x: 7471.926355715659
+          y: 5336.773434096209
+        normalizeHeightmap: 1
+        normalizedHeight: 3.8147583
+        created: 1
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 1792, y: 1280}
+        heightmap_scale: 4.169601761002042
+        heightmap_zoom: 15
+        elevation_zoom: 14
+        heightmap_manual: 1
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 7
+          y: 5
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: GrandIsle
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: GrandIsle
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: GrandIsle
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 7
+        terrain_heightmap_resolution: 4097
+        terrain_heightmap_resolution_changed: 1
+        mipmapEnabled: 1
+        terrain_done: 1
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 2048
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: GrandIsle
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      - name: Untitled2
+        upper_left:
+          latitude: 0
+          longitude: 0
+        lower_right:
+          latitude: 0
+          longitude: 0
+        center:
+          latitude: 29.24552366489727
+          longitude: -89.91677971743043
+        center_height: 0
+        size:
+          x: 0
+          y: 0
+        normalizeHeightmap: 1
+        normalizedHeight: 0
+        created: 0
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 0, y: 0}
+        heightmap_scale: 0
+        heightmap_zoom: 0
+        elevation_zoom: 0
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 0
+          y: 0
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: Untitled2
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: Untitled2
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Untitled2
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 0
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 0
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 0
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      - name: Untitled3
+        upper_left:
+          latitude: 0
+          longitude: 0
+        lower_right:
+          latitude: 0
+          longitude: 0
+        center:
+          latitude: 29.24552366489727
+          longitude: -89.91677971743043
+        center_height: 0
+        size:
+          x: 0
+          y: 0
+        normalizeHeightmap: 1
+        normalizedHeight: 0
+        created: 0
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 0, y: 0}
+        heightmap_scale: 0
+        heightmap_zoom: 0
+        elevation_zoom: 0
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 2048
+        image_zoom: 18
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 0
+          y: 0
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_heightmap_filename: Untitled3
+        export_heightmap_changed: 0
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        export_image_filename: Untitled3
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Untitled3
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 0
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 0
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 0
+        maxTextureSize_select: 6
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      area_popup:
+      - GrandIsle
+      - Untitled2
+      - Untitled3
+      area_select: 0
+      center:
+        latitude: 29.24552366489727
+        longitude: -89.91677971743043
     region_popup:
     - U.S.A.
-    - Europe
+    - 'Europe '
     - Islands
-    region_select: 0
+    - GrandIsle
+    - Untitled5
+    - Untitled6
+    - Louisiana
+    region_select: 6
     manual_edit: 0
     region_rect:
       serializedVersion: 2
@@ -2103,12 +3017,12 @@ MonoBehaviour:
         solid_color: 0
         radius: 300
         repeat: 4
-      y1: 410
-      x1: 65
-      x: 64
-      y: 410
+      y1: 19
+      x1: 1
+      x: 1
+      y: 19
       frames: 0
-      auto_speed_time: 1609.825
+      auto_speed_time: 282.21555
       time_start: 0
       time: 0
       generate: 0
@@ -2125,14 +3039,14 @@ MonoBehaviour:
       resolutionRaw: {x: 0, y: 0}
       byte1: 000000
       raw: 0
-      xx: 13
-      position: {x: 70, y: 392}
-      position2: {x: 158.86833, y: 125.39499}
-      direction: {x: 0, y: 1}
-      dir: 2
-      pos_old: {x: 64, y: 410}
+      xx: 3
+      position: {x: -1, y: 18}
+      position2: {x: 169.40518, y: 266.59216}
+      direction: {x: 1, y: 0}
+      dir: 1
+      pos_old: {x: 0, y: -100}
       first: 1
-      count: 4
+      count: 0
       inputBuffer:
         resolution: {x: 800, y: 768}
         length: 1843200
@@ -2192,14 +3106,14 @@ MonoBehaviour:
     tex_swapped: 1
     tex2_tile:
       x: 0
-      y: 4
+      y: 5
     tex3_tile:
       x: 1
-      y: 4
+      y: 5
     elExt_check_loaded: 1
     elExt_check_assign: 0
     export_texExt: 8
-    export_elExt: 32
+    export_elExt: 16
     mode: 0
     export_tex3: 0
     export_tex2: 0
@@ -2209,15 +3123,15 @@ MonoBehaviour:
     export_pulled: 0
     export_image_active: 0
     export_heightmap_active: 0
-    export_heightmap_zoom: 14
-    export_heightmap_timeStart: 15.644488
-    export_heightmap_timeEnd: 42.710796
-    export_heightmap_timePause: 15.644489
+    export_heightmap_zoom: 15
+    export_heightmap_timeStart: 504.97635
+    export_heightmap_timeEnd: 739.65466
+    export_heightmap_timePause: 504.97635
     export_heightmap_continue: 1
-    export_image_zoom: 19
-    export_image_timeStart: 57.558292
-    export_image_timeEnd: 222.55852
-    export_image_timePause: 57.558296
+    export_image_zoom: 18
+    export_image_timeStart: 743.95734
+    export_image_timeEnd: 835.2284
+    export_image_timePause: 743.95734
     export_image_continue: 1
     export_jpg_quality: 100
     export_jpg: 1
@@ -2226,10 +3140,10 @@ MonoBehaviour:
     color: {r: 0, g: 0, b: 0, a: 1}
     key_edit: 0
     bingKey:
-    - pulls_startDay: 22
-      pulls_startHour: 16
-      pulls_startMinute: 33
-      pulls: 7452
+    - pulls_startDay: 13
+      pulls_startHour: 15
+      pulls_startMinute: 0
+      pulls: 2871
       key: Ao3AGWx8T8l_iHptTbTInNdc6nIGgF0S9oLRYIyBlus98z5hlUCPv8bwKvJTuy2f
     bingKey_selected: 0
     mouse_sensivity: 2
@@ -2263,16 +3177,16 @@ MonoBehaviour:
   map_load4: 1
   map_zoom1: 0
   map_zoom2: 0
-  map_zoom3: 14
+  map_zoom3: 12
   map_zoom4: 0
   map_latlong:
-    latitude: 29.25643830688722
-    longitude: -89.92516773939128
+    latitude: 29.26590494881343
+    longitude: -89.83575554750855
   map_latlong_center:
-    latitude: 29.25643830688722
-    longitude: -89.95950001478191
-  map_zoom: 14
-  map_zoom_old: 14
+    latitude: 29.26590494881343
+    longitude: -89.97308464907105
+  map_zoom: 12
+  map_zoom_old: 12
   settings:
     disableLightmapping: 0
     undo: 0

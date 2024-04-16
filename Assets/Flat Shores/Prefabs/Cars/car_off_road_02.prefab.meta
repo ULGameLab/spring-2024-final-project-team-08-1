@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03f475e188fc3d940b88521be28dc181
+timeCreated: 1464278329
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Cars/car_off_road_02.prefab
+  uploadId: 119914
