@@ -3,3 +3,10 @@ guid: b544816461f324e56a39767fdeb5b114
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Standard Assets/Environment/Water/Water4/Prefabs/Water4Advanced.prefab
+  uploadId: 175677

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f8ffb7aa42f23d4fad66e9150aa6913
+timeCreated: 1467280759
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/MetalPlates_Albedo.mat
+  uploadId: 175677

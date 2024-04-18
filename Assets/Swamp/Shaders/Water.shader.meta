@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6129cbc6e4e9b734c983d70db9fffcd2
+timeCreated: 1491330218
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _dirty_water: {fileID: 2800000, guid: 7d841bcd1e08ac64a8bc9b8f61333cd0, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Shaders/Water.shader
+  uploadId: 175677

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5b1e03d42137f54283a17a1d18ec4ae
+timeCreated: 1491331239
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/READ ME.txt
+  uploadId: 175677

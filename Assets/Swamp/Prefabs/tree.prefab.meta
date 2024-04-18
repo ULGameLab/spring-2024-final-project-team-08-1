@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f8b664bb7e09fd40a7bed242a5c5dd3
+timeCreated: 1492787145
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/tree.prefab
+  uploadId: 175677

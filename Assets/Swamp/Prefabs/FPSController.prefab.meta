@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 129a69f5794f92f499f00fc9bbc9a633
+timeCreated: 1492787163
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/FPSController.prefab
+  uploadId: 175677

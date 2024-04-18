@@ -221,7 +221,7 @@ MonoBehaviour:
     discordClicked: 1
     timeOut: 4
     active: 1
-    button_parameters: 0
+    button_parameters: 1
     button_image_editor: 0
     button_region: 1
     button_image_export: 1
@@ -2935,6 +2935,139 @@ MonoBehaviour:
       center:
         latitude: 29.24552366489727
         longitude: -89.91677971743043
+    - name: Swamp
+      area:
+      - name: Swamp
+        upper_left:
+          latitude: 29.715973421457946
+          longitude: -91.86569960974153
+        lower_right:
+          latitude: 29.706431647452966
+          longitude: -91.85471328161653
+        center:
+          latitude: 29.71120594954995
+          longitude: -91.86020644567903
+        center_height: -27
+        size:
+          x: 1062.2113056012313
+          y: 1062.21428825517
+        normalizeHeightmap: 1
+        normalizedHeight: 1.0681152
+        created: 1
+        resize: 0
+        resize_left: 0
+        resize_right: 0
+        resize_top: 0
+        resize_bottom: 0
+        resize_topLeft: 0
+        resize_topRight: 0
+        resize_bottomLeft: 0
+        resize_bottomRight: 0
+        resize_center: 0
+        manual_area: 0
+        heightmap_offset: {x: 0, y: 0}
+        heightmap_offset_e: {x: 0, y: 0}
+        image_offset_e: {x: 0, y: 0}
+        image_stop_one: 0
+        select: 0
+        smooth_strength: 1
+        width: 0
+        height: 0
+        heightmap_resolution: {x: 128, y: 128}
+        heightmap_scale: 8.29852582500962
+        heightmap_zoom: 14
+        elevation_zoom: 14
+        heightmap_manual: 0
+        area_resolution: 0
+        resolution: 1024
+        image_zoom: 19
+        image_changed: 0
+        start_tile_enabled: 0
+        start_tile:
+          x: 0
+          y: 0
+        tiles:
+          x: 4
+          y: 4
+        export_heightmap_active: 0
+        export_heightmap_call: 0
+        export_heightmap_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Swamp
+        export_heightmap_filename: Swamp
+        export_heightmap_changed: 1
+        export_heightmap_not_fit: 0
+        export_heightmap_bres: {x: 0, y: 0}
+        export_image_active: 0
+        export_image_call: 0
+        export_image_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Swamp
+        export_image_filename: Swamp
+        export_image_changed: 0
+        export_image_import_settings: 0
+        export_image_world_file: 0
+        export_terrain_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Swamp/Terrains
+        export_terrain_changed: 0
+        export_to_terraincomposer: 1
+        import_heightmap_path_full: 
+        filter_perlin: 0
+        converter_source_path_full: 
+        converter_destination_path_full: 
+        converter_resolution: {x: 0, y: 0}
+        converter_height: 10000
+        converter_import_heightmap: 0
+        terrain_asset_name: 
+        terrain_scene_name: Swamp
+        terrain_name_changed: 0
+        terrain_scale: 1
+        terrain_curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        do_heightmap: 1
+        do_image: 1
+        terrain_heightmap_resolution_select: 0
+        terrain_heightmap_resolution: 33
+        terrain_heightmap_resolution_changed: 0
+        mipmapEnabled: 1
+        terrain_done: 1
+        filterMode: 2
+        anisoLevel: 9
+        maxTextureSize: 1024
+        maxTextureSize_select: 5
+        maxTextureSize_changed: 0
+        auto_import_settings_apply: 1
+        preimage_export_active: 0
+        preimage_apply: 0
+        preimage_save_new: 0
+        preimage_path: C:/Users/missk/Documents/GitHub Repos/final-project/Assets/WorldComposer/Swamp
+        preimage_path_changed: 0
+        preimage_filename: 
+        preimage_count: 0
+        textureFormat: 0
+      area_popup:
+      - Swamp
+      area_select: 0
+      center:
+        latitude: 29.26590494881343
+        longitude: -89.97308464907105
     region_popup:
     - U.S.A.
     - 'Europe '
@@ -2943,7 +3076,8 @@ MonoBehaviour:
     - Untitled5
     - Untitled6
     - Louisiana
-    region_select: 6
+    - Swamp
+    region_select: 7
     manual_edit: 0
     region_rect:
       serializedVersion: 2
@@ -3106,10 +3240,10 @@ MonoBehaviour:
     tex_swapped: 1
     tex2_tile:
       x: 0
-      y: 5
+      y: 4
     tex3_tile:
       x: 1
-      y: 5
+      y: 4
     elExt_check_loaded: 1
     elExt_check_assign: 0
     export_texExt: 8
@@ -3123,15 +3257,15 @@ MonoBehaviour:
     export_pulled: 0
     export_image_active: 0
     export_heightmap_active: 0
-    export_heightmap_zoom: 15
-    export_heightmap_timeStart: 504.97635
-    export_heightmap_timeEnd: 739.65466
-    export_heightmap_timePause: 504.97635
+    export_heightmap_zoom: 14
+    export_heightmap_timeStart: 772.36285
+    export_heightmap_timeEnd: 774.09314
+    export_heightmap_timePause: 772.36285
     export_heightmap_continue: 1
-    export_image_zoom: 18
-    export_image_timeStart: 743.95734
-    export_image_timeEnd: 835.2284
-    export_image_timePause: 743.95734
+    export_image_zoom: 19
+    export_image_timeStart: 775.7919
+    export_image_timeEnd: 786.358
+    export_image_timePause: 775.7919
     export_image_continue: 1
     export_jpg_quality: 100
     export_jpg: 1
@@ -3140,10 +3274,10 @@ MonoBehaviour:
     color: {r: 0, g: 0, b: 0, a: 1}
     key_edit: 0
     bingKey:
-    - pulls_startDay: 13
-      pulls_startHour: 15
-      pulls_startMinute: 0
-      pulls: 2871
+    - pulls_startDay: 16
+      pulls_startHour: 11
+      pulls_startMinute: 30
+      pulls: 321
       key: Ao3AGWx8T8l_iHptTbTInNdc6nIGgF0S9oLRYIyBlus98z5hlUCPv8bwKvJTuy2f
     bingKey_selected: 0
     mouse_sensivity: 2
@@ -3170,23 +3304,23 @@ MonoBehaviour:
     terrain_offset: {x: -0.6568617, y: 1.376324}
     node_offset: {x: 36.17367, y: 17.09653}
   preview_window: 
-  map_combine: 1
-  map_load: 1
+  map_combine: 0
+  map_load: 0
   map_load2: 1
   map_load3: 1
   map_load4: 1
   map_zoom1: 0
   map_zoom2: 0
-  map_zoom3: 12
+  map_zoom3: 15
   map_zoom4: 0
   map_latlong:
-    latitude: 29.26590494881343
-    longitude: -89.83575554750855
+    latitude: 29.71333696851169
+    longitude: -91.84425803087647
   map_latlong_center:
-    latitude: 29.26590494881343
-    longitude: -89.97308464907105
-  map_zoom: 12
-  map_zoom_old: 12
+    latitude: 29.71333696851169
+    longitude: -91.86142416857179
+  map_zoom: 15
+  map_zoom_old: 13
   settings:
     disableLightmapping: 0
     undo: 0

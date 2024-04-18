@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89032384bbde63048941d92fdb2461c9
+timeCreated: 1477989617
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/Mud.mat
+  uploadId: 175677

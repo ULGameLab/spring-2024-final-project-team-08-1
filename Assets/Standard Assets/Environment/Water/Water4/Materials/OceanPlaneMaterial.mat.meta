@@ -3,3 +3,10 @@ guid: a437a9b380909fa4d98f929428f70388
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Standard Assets/Environment/Water/Water4/Materials/OceanPlaneMaterial.mat
+  uploadId: 175677

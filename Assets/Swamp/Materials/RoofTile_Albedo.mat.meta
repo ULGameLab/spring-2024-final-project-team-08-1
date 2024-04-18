@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bdfbfc771e34e3c4e9d801ccbd7bb2f0
+timeCreated: 1467280758
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/RoofTile_Albedo.mat
+  uploadId: 175677

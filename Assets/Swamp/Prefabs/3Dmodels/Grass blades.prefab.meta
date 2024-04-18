@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 62e62b8172010c743b520710bbc979ff
+timeCreated: 1478031958
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/3Dmodels/Grass blades.prefab
+  uploadId: 175677

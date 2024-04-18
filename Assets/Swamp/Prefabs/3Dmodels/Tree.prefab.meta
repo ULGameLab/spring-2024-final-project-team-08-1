@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df15cb5c051f04a43ba9bab574484001
+timeCreated: 1478079503
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/3Dmodels/Tree.prefab
+  uploadId: 175677

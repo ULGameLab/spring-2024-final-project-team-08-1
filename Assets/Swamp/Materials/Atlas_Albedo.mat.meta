@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ba3a53b2209d7346b7fbd7f17bdaf12
+timeCreated: 1467280759
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/Atlas_Albedo.mat
+  uploadId: 175677

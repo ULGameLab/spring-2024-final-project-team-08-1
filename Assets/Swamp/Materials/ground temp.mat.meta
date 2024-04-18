@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb807f4f1fdaa0641846178b4c8a678b
+timeCreated: 1467281209
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/ground temp.mat
+  uploadId: 175677

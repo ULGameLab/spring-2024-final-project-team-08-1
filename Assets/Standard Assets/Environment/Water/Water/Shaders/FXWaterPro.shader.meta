@@ -4,3 +4,10 @@ ShaderImporter:
   defaultTextures: []
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader
+  uploadId: 175677

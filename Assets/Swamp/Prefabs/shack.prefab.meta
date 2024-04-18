@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a474af21e51b5264183076ac407e12bb
+timeCreated: 1492712234
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/shack.prefab
+  uploadId: 175677

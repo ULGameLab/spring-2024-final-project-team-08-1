@@ -3,3 +3,10 @@ guid: e633a20421c47426aa04444234225b69
 NativeFormatImporter:
   userData: 
   assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Standard Assets/Environment/Water/Water/Materials/WaterProNighttime.mat
+  uploadId: 175677

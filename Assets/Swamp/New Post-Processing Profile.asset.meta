@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2921da5c9785464a82270ac0363a32b
+timeCreated: 1488734920
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/New Post-Processing Profile.asset
+  uploadId: 175677

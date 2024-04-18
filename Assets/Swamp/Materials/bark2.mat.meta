@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3232cfe8e5c7a5c44bbc0e493da3147b
+timeCreated: 1467280760
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/bark2.mat
+  uploadId: 175677

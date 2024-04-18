@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6539c2b864e7624baad3d12347049d0
+timeCreated: 1492787092
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/Church.prefab
+  uploadId: 175677

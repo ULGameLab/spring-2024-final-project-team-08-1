@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63e96525407d7b84099a7f5a4729bda0
+timeCreated: 1492712202
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/pier.prefab
+  uploadId: 175677
