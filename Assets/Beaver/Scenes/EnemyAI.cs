@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -13,6 +14,9 @@ public class NutriaAI : MonoBehaviour
     private Vector3 spawnPosition;
     private bool isDead = false;
 
+    //public int reward = 0;
+    //public TextMeshProUGUI rewardText;
+
     private static readonly int RunHash = Animator.StringToHash("run");
     private static readonly int DieHash = Animator.StringToHash("die");
 
@@ -21,6 +25,8 @@ public class NutriaAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         spawnPosition = transform.position;
+
+        //rewardText.text = "Reward : $" + reward.ToString(); 
     }
 
     void Update()
@@ -66,7 +72,14 @@ public class NutriaAI : MonoBehaviour
 
         if (other.gameObject.CompareTag("Bullet")) 
         {
+            //reward += 6;
+            //Debug.Log(reward);
+            //rewardText.text = "Reward : $" + reward.ToString(); 
+
             Destroy(this.gameObject);
+            GameStats.UpdateNutriaKilled();
+
+
         }
     }
 

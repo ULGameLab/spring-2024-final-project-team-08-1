@@ -18,8 +18,10 @@ public class GameStats : MonoBehaviour
     public TextMeshProUGUI countText;
     public TextMeshProUGUI healthText;
     public TextMeshProUGUI energyText;
+    public TextMeshProUGUI rewardText;
 
     public int enemyCount;
+    public static int reward;
 
     public Material myMegaMaterial;
     public GameObject myPacMan;
@@ -35,6 +37,7 @@ public class GameStats : MonoBehaviour
         countText.text = "Score : " + numPelletsCollected.ToString();
         healthText.text = "Health : " + health.ToString() + "%";
         energyText.text = "Energy : " + energy.ToString() + "%";
+        rewardText.text = "Reward : $" + reward.ToString();
 
         initialVelocity = myPacMan.GetComponent<Rigidbody>().velocity;
         // Get the AudioSource component attached to the game object
@@ -120,5 +123,21 @@ public class GameStats : MonoBehaviour
         myPacMan.GetComponent<Rigidbody>().velocity = initialVelocity;
 
 
+    }
+
+    public static void UpdateNutriaKilled()
+    {
+        reward += 6;
+        Debug.Log("reward  " + reward);
+        if (reward == 12)
+        {
+            Debug.Log("change scene");
+            SceneManager.LoadScene("Plants");
+        }
+    }
+
+    private void OnGUI()
+    {
+        rewardText.text = "Reward : $" + reward.ToString();
     }
 }

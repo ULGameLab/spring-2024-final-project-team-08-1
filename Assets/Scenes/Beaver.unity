@@ -1537,6 +1537,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524572395}
   m_Mesh: {fileID: 4300000, guid: 5f5a130504f0a464cbf711e7a585b88b, type: 3}
+--- !u!1 &529759073 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5813759638678576775, guid: 3551d15ff62a3074c906b32f0be37b8e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2140819376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &529759080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529759073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842a67f95bbf3c542ad0a891e4d8868d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  energy: 100
+  megaChomp: 0
+  countText: {fileID: 0}
+  healthText: {fileID: 0}
+  energyText: {fileID: 0}
+  rewardText: {fileID: 268208853}
+  enemyCount: 0
+  myMegaMaterial: {fileID: 0}
+  myPacMan: {fileID: 0}
 --- !u!1001 &566870068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4352,7 +4380,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2001249920}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5813759638678576775, guid: 3551d15ff62a3074c906b32f0be37b8e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 529759080}
   m_SourcePrefab: {fileID: 100100000, guid: 3551d15ff62a3074c906b32f0be37b8e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
