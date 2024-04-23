@@ -20,7 +20,6 @@ public class FPSClickToPickup : MonoBehaviour
         {
             if (hit.collider.CompareTag("Trash"))
             {
-                // Perform your pickup logic here, e.g., incrementing a score or playing a sound
                 Destroy(hit.collider.gameObject); // Example: Destroy the trash object
             }
         }
