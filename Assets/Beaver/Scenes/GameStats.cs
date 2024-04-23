@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement; // Required for loading scenes
@@ -18,8 +16,12 @@ public class GameStats : MonoBehaviour
     public TextMeshProUGUI countText;
     public TextMeshProUGUI healthText;
     public TextMeshProUGUI energyText;
+    public TextMeshProUGUI rewardText;
+    public TextMeshProUGUI trashText;
 
     public int enemyCount;
+    public static int reward;
+    public static int trashCount;
 
     public Material myMegaMaterial;
     public GameObject myPacMan;
@@ -35,6 +37,8 @@ public class GameStats : MonoBehaviour
         countText.text = "Score : " + numPelletsCollected.ToString();
         healthText.text = "Health : " + health.ToString() + "%";
         energyText.text = "Energy : " + energy.ToString() + "%";
+        rewardText.text = "Reward : $" + reward.ToString();
+        trashText.text = "Trash Count : " + trashCount.ToString();
 
         initialVelocity = myPacMan.GetComponent<Rigidbody>().velocity;
         // Get the AudioSource component attached to the game object
@@ -47,66 +51,12 @@ public class GameStats : MonoBehaviour
 
     }
     void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Pickup"))
-        {
-            numPelletsCollected += 1;
-            countText.text = "Score : " + numPelletsCollected.ToString();
-
-            if (energy < 100)
-            {
-                energy += 10;
-                energyText.text = "Energy : " + energy.ToString() + "%";
-            }
-
-            if (health < 100)
-            {
-                health += 5;
-                healthText.text = "Health : " + health.ToString() + "%";
-            }
-
-        }
-
-        else if (other.gameObject.CompareTag("BadPickup") && !other.gameObject.CompareTag("MegaChompPellet"))
-        {
-            if(megaChomp == false)
-            {
-                health -= 5;
-                healthText.text = "Health : " + health.ToString() + "%";
-            }
-            
-        }
-
-        else if (other.gameObject.CompareTag("MegaChompPellet"))
-        {
-            megaChomp = true;
-            myAudios[0].Stop();
-            myAudios[1].Play();
-            myPacMan.transform.localScale = new Vector3(2, 2, 2);
-            StartCoroutine(ReturnBackToNormal(10));
-
-            energy -= 50;
-            energyText.text = "Energy : " + energy.ToString() + "%";
-            myPacMan.GetComponent<Rigidbody>().velocity *= 0.0001f; // slow down the game character
-            //myPacMan.GetComponent<Renderer>().material = myMegaMaterial;
-        }
-
-
-        if (megaChomp == true && other.gameObject.CompareTag("Enemy"))
-        {
-            enemyCount -= 1;
-        }
-
-        if (enemyCount == 0)
-        {
-            
-            SceneManager.LoadScene("Win"); // change to you win screen
-        }
-
-        if(health == 0)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
+    {      
+       /* if (other.gameObject.CompareTag("Trash"))
+       {
+            trashCount += 1;
+            trashText.text = "Trash Count : " + trashCount.ToString();
+        } */
 
     }
 
@@ -119,6 +69,30 @@ public class GameStats : MonoBehaviour
         myAudios[0].Play();
         myPacMan.GetComponent<Rigidbody>().velocity = initialVelocity;
 
+
+    }
+
+    public static void UpdateNutriaKilled()
+    {
+        reward += 6;
+        Debug.Log("reward  " + reward);
+        if (reward == 12)
+        {
+            Debug.Log("change scene");
+            SceneManager.LoadScene("Plants");
+        }
+    }
+
+    public static void UpdateTrashCount()
+    {
+        Debug.Log("trash  " + trashCount);
+        trashCount += 1;
+    }
+
+    private void OnGUI()
+    {
+       // rewardText.text = "Reward : $" + reward.ToString();
+        trashText.text = "Trash Count : " + trashCount.ToString();
 
     }
 }
