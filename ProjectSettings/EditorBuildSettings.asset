@@ -9,10 +9,40 @@ EditorBuildSettings:
     path: Assets/Scenes/The_Viking_Village.unity
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: de047c339907c7345bb650b9747bd7b1
+  - enabled: 1
+    path: Assets/Scenes/GameInfo.unity
+    guid: dee39135b341cfb4d9357f18f1e61f00
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: bae6f85fa1f3d1543ad88811106db319
+  - enabled: 1
+    path: Assets/Scenes/Beaver.unity
+    guid: 999994445168cf4469c3d4c6f9ecdce8
+  - enabled: 1
     path: Assets/Scenes/Trash.unity
     guid: 8de1fdf78b871a54aae3f40ccd94c521
   - enabled: 1
     path: Assets/Scenes/CheatScene.unity
     guid: 4c1fa1b17ef6a554ca2df5d61514addf
+  - enabled: 1
+    path: Assets/Scenes/Demo.unity
+    guid: 93c264e6615e6d34197fb6ee83e09301
+  - enabled: 1
+    path: Assets/Scenes/Practice.unity
+    guid: 6a13fda834ce10948bd2add74025597c
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: a52430be82d6b5b4e89e8b0ad4e80388
+  - enabled: 1
+    path: Assets/Scenes/SecondLeveldemo.unity
+    guid: 3f35b7d2c60f3074a87d650a598f0166
+  - enabled: 1
+    path: Assets/Scenes/Trashdemo.unity
+    guid: 062cc4ff8d2530448b84c6cbff4e8e36
+  - enabled: 1
+    path: Assets/Scenes/Beaverdemo.unity
+    guid: b9498a6a1f7e2c7479acb39e17cb92fa
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
