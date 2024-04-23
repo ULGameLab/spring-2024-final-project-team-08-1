@@ -6,6 +6,10 @@ TagManager:
   tags:
   - TAZOFX
   - Enemy
+  - Bullet
+  - Fire
+  - dirt
+  - Trash
   layers:
   - Default
   - TransparentFX

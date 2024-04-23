@@ -2,9 +2,23 @@ using UnityEngine;
 
 public class ClickableTrash : MonoBehaviour
 {
-    void OnMouseDown()
+    //  void OnMouseDown()
+    // {
+    // Perform your pickup logic here
+    //    Destroy(gameObject); // Destroy the trash object upon clicking
+    //}
+
+    private void OnTriggerEnter(Collider other)
     {
-        // Perform your pickup logic here
-        Destroy(gameObject); // Destroy the trash object upon clicking
+
+        if (other.gameObject.CompareTag("Player"))
+        {
+            //reward += 6;
+            //Debug.Log(reward);
+            //rewardText.text = "Reward : $" + reward.ToString(); 
+
+            Destroy(this.gameObject);
+
+        }
     }
 }
