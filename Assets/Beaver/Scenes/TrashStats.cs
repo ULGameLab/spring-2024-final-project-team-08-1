@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement; // Required for loading scenes
 
 
-public class GameStats : MonoBehaviour
+public class TrashStats : MonoBehaviour
 
 
 {
@@ -91,8 +91,8 @@ public class GameStats : MonoBehaviour
 
     private void OnGUI()
     {
-       rewardText.text = "Reward : $" + reward.ToString();
-        //trashText.text = "Trash Count : " + trashCount.ToString();
+       // rewardText.text = "Reward : $" + reward.ToString();
+        trashText.text = "Trash Count : " + trashCount.ToString();
 
     }
 }
