@@ -15,6 +15,7 @@ public class ClickableTrash : MonoBehaviour
         else if (gameObject.CompareTag("Trash"))  
         {
             Debug.Log("Trash clicked - Destroying object: " + gameObject.name);
+            TrashStats.UpdateTrashCount();
             Destroy(gameObject); 
         }
     }
