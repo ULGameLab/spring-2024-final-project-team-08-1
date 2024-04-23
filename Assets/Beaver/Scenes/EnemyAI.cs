@@ -67,6 +67,7 @@ public class NutriaAI : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet")) 
         {
             Destroy(this.gameObject);
+            GameStats.UpdateNutriaKilled();
         }
     }
 
