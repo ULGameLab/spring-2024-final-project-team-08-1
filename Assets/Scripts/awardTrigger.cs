@@ -6,6 +6,8 @@ public class awardTrigger : MonoBehaviour
 {
     GameObject[] enemies;
     public GameObject explo;
+    public AudioSource awardFX;
+    public AudioSource enemyblastFX;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,8 @@ public class awardTrigger : MonoBehaviour
                 Destroy(x);
             }
         }
+        awardFX.Play();
+        enemyblastFX.Play();
         this.gameObject.SetActive(false);
     }
 }
