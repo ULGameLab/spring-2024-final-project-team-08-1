@@ -5,6 +5,8 @@ using UnityEngine;
 public class awardTrigger : MonoBehaviour
 {
     GameObject[] enemies;
+    public GameObject explo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,8 @@ public class awardTrigger : MonoBehaviour
         {
             foreach(GameObject x in enemies)
             {
+                GameObject _explo = Instantiate(explo, x.transform.position, Quaternion.identity) as GameObject;
+                Destroy(_explo, 2);
                 Destroy(x);
             }
         }
