@@ -32,5 +32,6 @@ public class awardTrigger : MonoBehaviour
                 Destroy(x);
             }
         }
+        this.gameObject.SetActive(false);
     }
 }
