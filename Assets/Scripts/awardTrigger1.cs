@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class awardTrigger : MonoBehaviour
+public class awardTrigger1 : MonoBehaviour
 {
     GameObject[] enemies;
     public GameObject explo;
@@ -23,7 +23,7 @@ public class awardTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        enemies = GameObject.FindGameObjectsWithTag("Enemy1");
 
         if(other.gameObject.tag == "Player")
         {
