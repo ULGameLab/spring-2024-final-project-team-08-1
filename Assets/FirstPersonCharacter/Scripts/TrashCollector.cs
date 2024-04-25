@@ -12,8 +12,11 @@ public class FPSController : MonoBehaviour
     public LayerMask interactableLayer;
     public float interactionDistance = 2f;
 
+    [Header("Audio Settings")]
+    public AudioSource audioSource;  // Attach an AudioSource with the desired clip for the flower
+
     [Header("Level Management")]
-    public string nextLevelScene = "NextLevel";
+    public string nextLevelScene = "CheatScene";
 
     private NavMeshAgent agent;
 
@@ -32,12 +35,8 @@ public class FPSController : MonoBehaviour
 
     private void HandleMovement()
     {
-        // Calculate movement vector based on input
         Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        moveDirection = transform.TransformDirection(moveDirection);
-        moveDirection.Normalize();
-
-        // Set the agent's velocity directly for smoother movement
+        moveDirection = transform.TransformDirection(moveDirection).normalized;
         agent.velocity = moveDirection * moveSpeed;
     }
 
@@ -46,12 +45,15 @@ public class FPSController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
-            // Using a sphere cast for better area coverage
             if (Physics.SphereCast(playerCamera.transform.position, 0.5f, playerCamera.transform.forward, out hit, interactionDistance, interactableLayer))
             {
                 if (hit.collider.CompareTag("Trash"))
                 {
                     Destroy(hit.collider.gameObject); // Destroy the object tagged as "Trash"
+                }
+                else if (hit.collider.CompareTag("Flower") && !audioSource.isPlaying)
+                {
+                    audioSource.Play(); // Play the audio when near a "Flower"
                 }
             }
         }
@@ -59,9 +61,9 @@ public class FPSController : MonoBehaviour
 
     private void CheckForCheat()
     {
-        if (Input.GetKeyDown(KeyCode.C)) // Activate cheat to load next level
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            SceneManager.LoadScene(nextLevelScene);
+            SceneManager.LoadScene(nextLevelScene); // Load the next level
         }
     }
 }

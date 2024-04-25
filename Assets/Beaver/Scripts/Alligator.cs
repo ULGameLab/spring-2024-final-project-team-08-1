@@ -59,4 +59,12 @@ public class AlligatorAI : MonoBehaviour
 
         return navHit.position;
     }
+
+    public void onTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Gator"))
+        {
+            GameStats.reduceReward();
+        }
+    }
 }

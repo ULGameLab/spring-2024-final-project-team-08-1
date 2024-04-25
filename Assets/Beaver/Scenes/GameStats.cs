@@ -83,6 +83,15 @@ public class GameStats : MonoBehaviour
         }
     }
 
+    public static void reduceReward()
+    {
+        if(reward != 0)
+        {
+            Debug.Log("reward  " + reward);
+            reward -= 6;
+        }
+    }
+
     public static void UpdateTrashCount()
     {
         Debug.Log("trash  " + trashCount);

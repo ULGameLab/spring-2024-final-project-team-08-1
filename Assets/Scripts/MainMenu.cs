@@ -16,9 +16,20 @@ public class MainMenu : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
+    public void LoadCheatScene()
+    {
+        SceneManager.LoadScene("CheatScene");
+    }
+
+
     public void LoadGameInfo()
     {
         SceneManager.LoadScene("GameInfo");
+    }
+
+    public void LoadNative()
+    {
+        SceneManager.LoadScene("DemoGrassFlowers");
     }
 
     public void LoadPractice()

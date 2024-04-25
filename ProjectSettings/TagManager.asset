@@ -12,6 +12,7 @@ TagManager:
   - Main Camera
   - Trash
   - Enemy
+  - Gator
   layers:
   - Default
   - TransparentFX
