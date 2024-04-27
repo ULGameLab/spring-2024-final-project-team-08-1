@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement; // Required for loading scenes
 
+=======
+>>>>>>> origin/kelly
 
 public class CollectableControl : MonoBehaviour
 {
@@ -14,6 +17,7 @@ public class CollectableControl : MonoBehaviour
     void Update()
     {
         shellCountDisplay.GetComponent<Text>().text = "" + shellCount;
+<<<<<<< HEAD
         if(shellCount == 15)
         {
             SceneManager.LoadScene("GameOver");
@@ -24,5 +28,7 @@ public class CollectableControl : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
     
+=======
+>>>>>>> origin/kelly
     }
 }

@@ -24,10 +24,17 @@ public class enemy : MonoBehaviour
             transform.LookAt(player);
             GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed);
         }
+<<<<<<< HEAD
         if(dist <= 1.5f)
         {
                 CollectableControl.shellCount -= 1;
                 //do damage
+=======
+
+        if(dist <= 1.5f)
+        {
+            //do damage
+>>>>>>> origin/kelly
         }
     }
 }

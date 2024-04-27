@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ALP_Assets/Big Oak Tree FREE.meta
 guid: 5940ab29e102975419588524b8041c44
+========
+guid: bbe75897d66c0b84ea9116ebec49064f
+>>>>>>>> origin/kelly:Assets/ALP_Assets.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

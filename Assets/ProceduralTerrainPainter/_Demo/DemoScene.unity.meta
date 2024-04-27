@@ -1,7 +1,25 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/ProceduralTerrainPainter/_Demo/DemoScene.unity.meta
 guid: b9f1a965ac3e580489af7e84e004a320
+========
+guid: 4c1fa1b17ef6a554ca2df5d61514addf
+>>>>>>>> origin/kelly:Assets/Scenes/CheatScene.unity.meta
+=======
+guid: b9f1a965ac3e580489af7e84e004a320
+>>>>>>> origin/kelly
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< HEAD
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 188357
+  packageName: Procedural Terrain Painter
+  packageVersion: 1.0.4
+  assetPath: Assets/ProceduralTerrainPainter/_Demo/DemoScene.unity
+  uploadId: 568788
+>>>>>>> origin/kelly

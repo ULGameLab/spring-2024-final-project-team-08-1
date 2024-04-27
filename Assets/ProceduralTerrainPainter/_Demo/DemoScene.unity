@@ -13,7 +13,11 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 10
+=======
+  serializedVersion: 9
+>>>>>>> origin/kelly
   m_Fog: 1
   m_FogColor: {r: 0.81818026, g: 0.84964204, b: 0.9245149, a: 0.7609621}
   m_FogMode: 2
@@ -43,7 +47,12 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 12
+=======
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+>>>>>>> origin/kelly
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,6 +75,12 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
+<<<<<<< HEAD
+=======
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+>>>>>>> origin/kelly
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -94,14 +109,22 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
+<<<<<<< HEAD
   m_LightingSettings: {fileID: 4890085278179872738, guid: eec06b13bfbc7a047aafbc3b93f4b134,
     type: 2}
+=======
+  m_UseShadowmask: 1
+>>>>>>> origin/kelly
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
+<<<<<<< HEAD
     serializedVersion: 3
+=======
+    serializedVersion: 2
+>>>>>>> origin/kelly
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -114,9 +137,13 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
+<<<<<<< HEAD
     buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
+=======
+    accuratePlacement: 0
+>>>>>>> origin/kelly
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -143,17 +170,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14032162}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1024, y: 0, z: -1024}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1024, y: 0, z: -1024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> origin/kelly
   m_Children:
   - {fileID: 1381040244}
   - {fileID: 468788686}
   - {fileID: 1200185762}
   - {fileID: 2082284930}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
+=======
+  m_RootOrder: 4
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &24849214
 MonoBehaviour:
@@ -250,6 +287,11 @@ MonoBehaviour:
   bounds:
     m_Center: {x: 0, y: 258.71924, z: 0}
     m_Extent: {x: 1024, y: 186.18867, z: 1024}
+<<<<<<< HEAD
+=======
+  refreshVegetationOnPaint: 0
+  msTexArray: {fileID: 0}
+>>>>>>> origin/kelly
   filterShader: {fileID: 4800000, guid: 0f44df78e3d64d9cb2616cac3d84cb77, type: 3}
 --- !u!4 &299400021
 Transform:
@@ -258,6 +300,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299400019}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -265,6 +308,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &420022578
 MonoBehaviour:
@@ -353,6 +404,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468788685}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1024, y: 72.53058, z: 0}
@@ -360,6 +412,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 14032163}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1024, y: 72.53058, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 14032163}
+  m_RootOrder: 1
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!154 &468788687
 TerrainCollider:
@@ -369,6 +429,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468788685}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -379,6 +440,9 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+=======
+  m_Enabled: 1
+>>>>>>> origin/kelly
   m_TerrainData: {fileID: 15600000, guid: 1b49923812742c241af8fabb84e36acc, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &468788688
@@ -399,28 +463,40 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 1
   m_SplatMapDistance: 3000
+<<<<<<< HEAD
   m_HeightmapMinimumLODSimplification: 0
+=======
+>>>>>>> origin/kelly
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 0
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 0
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
+=======
+>>>>>>> origin/kelly
   m_ReflectionProbeUsage: 2
   m_MaterialTemplate: {fileID: 2100000, guid: b8b309b499f9d104baca1fbf190fd575, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> origin/kelly
   m_ScaleInLightmap: 0.025
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+<<<<<<< HEAD
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+=======
+>>>>>>> origin/kelly
 --- !u!114 &502591979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,6 +565,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797091068}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -500,6 +577,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+=======
+  m_IsTrigger: 0
+  m_Enabled: 1
+>>>>>>> origin/kelly
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -515,14 +596,20 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
+=======
+>>>>>>> origin/kelly
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+<<<<<<< HEAD
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+=======
+>>>>>>> origin/kelly
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -547,7 +634,10 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_AdditionalVertexStreams: {fileID: 0}
+=======
+>>>>>>> origin/kelly
 --- !u!33 &797091071
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -563,6 +653,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797091068}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -325.5, y: 171.936, z: 750.6}
@@ -570,6 +661,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -325.5, y: 171.936, z: 750.6}
+  m_LocalScale: {x: 0.66, y: 0.9, z: 0.66}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944561760
 GameObject:
@@ -628,6 +727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944561760}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 247, z: 0}
@@ -635,6 +735,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 247, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200185761
 GameObject:
@@ -661,6 +769,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200185761}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 72.53058, z: 1024}
@@ -668,6 +777,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 14032163}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 72.53058, z: 1024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 14032163}
+  m_RootOrder: 2
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!154 &1200185763
 TerrainCollider:
@@ -677,6 +794,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200185761}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -687,6 +805,9 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+=======
+  m_Enabled: 1
+>>>>>>> origin/kelly
   m_TerrainData: {fileID: 15600000, guid: 06b03729d66083744a7ca73245bd3cdb, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1200185764
@@ -707,28 +828,40 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 1
   m_SplatMapDistance: 3000
+<<<<<<< HEAD
   m_HeightmapMinimumLODSimplification: 0
+=======
+>>>>>>> origin/kelly
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 0
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 0
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
+=======
+>>>>>>> origin/kelly
   m_ReflectionProbeUsage: 2
   m_MaterialTemplate: {fileID: 2100000, guid: b8b309b499f9d104baca1fbf190fd575, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> origin/kelly
   m_ScaleInLightmap: 0.025
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+<<<<<<< HEAD
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+=======
+>>>>>>> origin/kelly
 --- !u!1 &1381040243
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +887,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381040243}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 72.53058, z: 0}
@@ -761,6 +895,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 14032163}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 72.53058, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 14032163}
+  m_RootOrder: 0
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!154 &1381040245
 TerrainCollider:
@@ -770,6 +912,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381040243}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -780,6 +923,9 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+=======
+  m_Enabled: 1
+>>>>>>> origin/kelly
   m_TerrainData: {fileID: 15600000, guid: 80c2198814d1a694f9044e4f5a861c2b, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1381040246
@@ -800,28 +946,40 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 1
   m_SplatMapDistance: 3000
+<<<<<<< HEAD
   m_HeightmapMinimumLODSimplification: 0
+=======
+>>>>>>> origin/kelly
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 0
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 0
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
+=======
+>>>>>>> origin/kelly
   m_ReflectionProbeUsage: 2
   m_MaterialTemplate: {fileID: 2100000, guid: b8b309b499f9d104baca1fbf190fd575, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> origin/kelly
   m_ScaleInLightmap: 0.025
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+<<<<<<< HEAD
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+=======
+>>>>>>> origin/kelly
 --- !u!114 &1405098487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -970,8 +1128,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889588237}
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 11
   m_Type: 1
+=======
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+>>>>>>> origin/kelly
   m_Color: {r: 1, g: 0.97569555, b: 0.9103774, a: 1}
   m_Intensity: 1.45
   m_Range: 10
@@ -1020,7 +1184,10 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
+<<<<<<< HEAD
   m_UseViewFrustumForShadowCasterCull: 1
+=======
+>>>>>>> origin/kelly
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1889588239
@@ -1030,6 +1197,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889588237}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0.12860197, y: 0.73514557, z: -0.14556271, w: 0.64948756}
   m_LocalPosition: {x: 0, y: 3, z: 0}
@@ -1037,6 +1205,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+=======
+  m_LocalRotation: {x: 0.12860197, y: 0.73514557, z: -0.14556271, w: 0.64948756}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 22.4, y: 97.08, z: 0}
 --- !u!114 &1901885561
 MonoBehaviour:
@@ -1105,6 +1281,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082284929}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1024, y: 72.53058, z: 1024}
@@ -1112,6 +1289,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 14032163}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1024, y: 72.53058, z: 1024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 14032163}
+  m_RootOrder: 3
+>>>>>>> origin/kelly
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!154 &2082284931
 TerrainCollider:
@@ -1121,6 +1306,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082284929}
   m_Material: {fileID: 0}
+<<<<<<< HEAD
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1131,6 +1317,9 @@ TerrainCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
+=======
+  m_Enabled: 1
+>>>>>>> origin/kelly
   m_TerrainData: {fileID: 15600000, guid: 0c299d6c9e830aa4d9ef9301ea8ec433, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &2082284932
@@ -1151,28 +1340,40 @@ Terrain:
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 1
   m_SplatMapDistance: 3000
+<<<<<<< HEAD
   m_HeightmapMinimumLODSimplification: 0
+=======
+>>>>>>> origin/kelly
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 0
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 0
+<<<<<<< HEAD
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
+=======
+>>>>>>> origin/kelly
   m_ReflectionProbeUsage: 2
   m_MaterialTemplate: {fileID: 2100000, guid: b8b309b499f9d104baca1fbf190fd575, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> origin/kelly
   m_ScaleInLightmap: 0.025
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+<<<<<<< HEAD
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+=======
+>>>>>>> origin/kelly
 --- !u!1 &2130710643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1204,6 +1405,7 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+<<<<<<< HEAD
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
@@ -1215,6 +1417,11 @@ Camera:
   m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+=======
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+>>>>>>> origin/kelly
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -1248,6 +1455,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130710643}
+<<<<<<< HEAD
   serializedVersion: 2
   m_LocalRotation: {x: 0.0034032774, y: 0.99519676, z: -0.03736108, w: 0.09042158}
   m_LocalPosition: {x: -423.9555, y: 261.8238, z: 1076.9424}
@@ -1266,3 +1474,12 @@ SceneRoots:
   - {fileID: 797091072}
   - {fileID: 14032163}
   - {fileID: 944561762}
+=======
+  m_LocalRotation: {x: 0.0034032774, y: 0.99519676, z: -0.03736108, w: 0.09042158}
+  m_LocalPosition: {x: -423.9555, y: 261.8238, z: 1076.9424}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.3, y: 169.617, z: 0.001}
+>>>>>>> origin/kelly

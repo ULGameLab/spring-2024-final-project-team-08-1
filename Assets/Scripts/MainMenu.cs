@@ -44,16 +44,23 @@ public class MainMenu : MonoBehaviour
 
     public void LoadSecondLevel()
     {
+<<<<<<< HEAD
         SceneManager.LoadScene("SecondLevel");
+=======
+        SceneManager.LoadScene("SecondLeveldemo");
+>>>>>>> origin/kelly
     }
 
     public void LoadTrashLevel()
     {
+<<<<<<< HEAD
         SceneManager.LoadScene("Trash");
     }
 
     public void LoadTrashLeveldemo()
     {
+=======
+>>>>>>> origin/kelly
         SceneManager.LoadScene("Trashdemo");
     }
 

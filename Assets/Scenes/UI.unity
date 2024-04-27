@@ -237,7 +237,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290603768}
   m_Enabled: 1
+<<<<<<< HEAD
   m_VideoClip: {fileID: 32900000, guid: c815f69e43fb0104b99b611d81360fc1, type: 3}
+=======
+  m_VideoClip: {fileID: 32900000, guid: bb966ab5edec50e49ad284db1fb910ec, type: 3}
+>>>>>>> origin/kelly
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1299170951}
@@ -334,7 +338,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -329, y: -273}
+=======
+  m_AnchoredPosition: {x: -329, y: -419}
+>>>>>>> origin/kelly
   m_SizeDelta: {x: 400, y: 74.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &645074671
@@ -632,7 +640,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 5, y: -166}
+=======
+  m_AnchoredPosition: {x: 5, y: -242}
+>>>>>>> origin/kelly
   m_SizeDelta: {x: 255.39, y: 47.3117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &909014179
@@ -1031,7 +1043,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -2, y: -77}
+=======
+  m_AnchoredPosition: {x: -2, y: -131}
+>>>>>>> origin/kelly
   m_SizeDelta: {x: 260.0992, y: 48.1834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1634813711
@@ -1186,7 +1202,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 250, y: -281}
+=======
+  m_AnchoredPosition: {x: 250, y: -421}
+>>>>>>> origin/kelly
   m_SizeDelta: {x: 400, y: 74.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1911544046

@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - TAZOFX
   - Enemy
   - CinemachineTarget
@@ -16,6 +17,17 @@ TagManager:
   - Enemy7
   - Enemy8
   - Enemy9
+=======
+  - Bullet
+  - Fire
+  - TAZOFX
+  - dirt
+  - Flower
+  - Main Camera
+  - Trash
+  - Enemy
+  - Gator
+>>>>>>> origin/kelly
   layers:
   - Default
   - TransparentFX

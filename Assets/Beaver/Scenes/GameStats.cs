@@ -76,10 +76,17 @@ public class GameStats : MonoBehaviour
     {
         reward += 6;
         Debug.Log("reward  " + reward);
+<<<<<<< HEAD
         if (reward == 24)
         {
             Debug.Log("change scene");
             SceneManager.LoadScene("NutriaWin");
+=======
+        if (reward == 12)
+        {
+            Debug.Log("change scene");
+            SceneManager.LoadScene("Plants");
+>>>>>>> origin/kelly
         }
     }
 

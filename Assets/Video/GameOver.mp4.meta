@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Video/GameOver.mp4.meta
 guid: b4b05208e48d8a6408d95719f6773e18
+========
+guid: e58b37833c8f0a94f8a12f5978d8de64
+>>>>>>>> origin/kelly:Assets/Video/NutriaWinScreen.mp4.meta
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -87,11 +87,14 @@ public class TrashStats : MonoBehaviour
     {
         Debug.Log("trash  " + trashCount);
         trashCount += 1;
+<<<<<<< HEAD
         if (trashCount == 10)
         {
             Debug.Log("change scene");
             SceneManager.LoadScene("TrashWin");
         }
+=======
+>>>>>>> origin/kelly
     }
 
     private void OnGUI()
