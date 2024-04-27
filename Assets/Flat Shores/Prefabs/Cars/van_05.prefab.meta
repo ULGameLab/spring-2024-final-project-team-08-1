@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b962a012504bfac439efc3e7139328d2
+timeCreated: 1464279680
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Cars/van_05.prefab
+  uploadId: 119914

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8312e282de729734497e74f4b239c1ef
+timeCreated: 1467280759
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/brick1.mat
+  uploadId: 175677

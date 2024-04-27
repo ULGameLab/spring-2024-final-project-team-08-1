@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4316fae47d42e7d4bbfb5d80c19925c3
+timeCreated: 1467280759
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/WoodPlanks_Albedo.mat
+  uploadId: 175677

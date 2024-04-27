@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f1428357b736d343ad34f5dc5d2d252
+timeCreated: 1491327137
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/Dirty water.mat
+  uploadId: 175677

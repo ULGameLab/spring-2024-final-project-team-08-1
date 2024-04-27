@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f89a301ad0c4a74aa407fcb9232a7e1
+timeCreated: 1467280760
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/branch4.mat
+  uploadId: 175677

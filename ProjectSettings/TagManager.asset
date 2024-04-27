@@ -4,26 +4,36 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Scavenger
-  - Trash
+  - TAZOFX
+  - Enemy
+  - CinemachineTarget
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Enemy4
+  - Enemy5
+  - Enemy6
+  - Enemy7
+  - Enemy8
+  - Enemy9
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - interactableLayer
+  - 
   - Water
   - UI
   - 
   - 
+  - Reflection_Probes
+  - Lighting
+  - Props
+  - ReflectedInWater
+  - Ground
+  - AccessibleVolume
+  - PostProcessing
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MainGround
   - 
   - 
   - 

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b95ca7712e9ba314b87dc28841e86f3a
+timeCreated: 1477993917
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Terrain/Terrain_x0_y0.asset
+  uploadId: 175677

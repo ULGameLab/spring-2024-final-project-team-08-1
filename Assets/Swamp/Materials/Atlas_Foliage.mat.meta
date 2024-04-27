@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 94cef0fc304fa7a459363fac0f85aeef
+timeCreated: 1467379434
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/Atlas_Foliage.mat
+  uploadId: 175677

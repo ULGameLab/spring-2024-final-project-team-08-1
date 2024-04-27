@@ -3,50 +3,68 @@ using UnityEngine.AI;
 
 public class AlligatorAI : MonoBehaviour
 {
-    public Transform[] waypoints;
-    private int waypointIndex = 0;
-    private NavMeshAgent agent;
+    public Transform playerTransform;
+    public float patrolRadius = 20f;
+    public float patrolTimer = 10f;
+    public float chaseDistance = 10f;
+    public float chaseSpeed = 6f;
 
-    public float chaseDistance = 10f; // Distance within which to start chasing the Scavenger
-    private Transform scavengerTransform; // To dynamically find and assign the Scavenger
+    private NavMeshAgent agent;
+    private Animator animator;
+    private float timer;
+
+    private static readonly int IsWalkingHash = Animator.StringToHash("isWalking");
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        GoToNextWaypoint();
-        // Find and assign the Scavenger transform at runtime
-        scavengerTransform = GameObject.Find("Scavenger").transform;
-    }
-
-    void GoToNextWaypoint()
-    {
-        if (waypoints.Length == 0) return;
-        agent.destination = waypoints[waypointIndex].position;
-        waypointIndex = (waypointIndex + 1) % waypoints.Length;
+        animator = GetComponent<Animator>();
+        timer = patrolTimer;
     }
 
     void Update()
     {
-        // Patrol between waypoints
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        if (Vector3.Distance(playerTransform.position, transform.position) <= chaseDistance)
         {
-            GoToNextWaypoint();
+            agent.SetDestination(playerTransform.position);
+            agent.speed = chaseSpeed;
+            animator.SetBool(IsWalkingHash, true);
         }
-
-        if (scavengerTransform != null)
+        else
         {
-            float distanceToScavenger = Vector3.Distance(scavengerTransform.position, transform.position);
+            Patrol();
+        }
+    }
 
-            // Start chasing the Scavenger if they're within chaseDistance
-            if (distanceToScavenger <= chaseDistance)
-            {
-                agent.destination = scavengerTransform.position;
-            }
-            else if (distanceToScavenger > chaseDistance && waypointIndex != 0)
-            {
-                // Return to patrolling if the Scavenger is far away
-                GoToNextWaypoint();
-            }
+    void Patrol()
+    {
+        timer += Time.deltaTime;
+
+        if (timer >= patrolTimer)
+        {
+            Vector3 newDestination = RandomNavSphere(transform.position, patrolRadius, -1);
+            agent.SetDestination(newDestination);
+            timer = 0;
+            animator.SetBool(IsWalkingHash, agent.velocity.magnitude > 0.1f);
+        }
+    }
+
+    public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
+    {
+        Vector3 randomDirection = Random.insideUnitSphere * distance;
+        randomDirection += origin;
+
+        NavMeshHit navHit;
+        NavMesh.SamplePosition(randomDirection, out navHit, distance, layermask);
+
+        return navHit.position;
+    }
+
+    public void onTriggerEnter(Collider other)
+    {
+        if(other.gameObject.CompareTag("Gator"))
+        {
+            GameStats.reduceReward();
         }
     }
 }

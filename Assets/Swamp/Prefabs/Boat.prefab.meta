@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e806ddf80083fe248aaada7a8850b60f
+timeCreated: 1492712222
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/Boat.prefab
+  uploadId: 175677

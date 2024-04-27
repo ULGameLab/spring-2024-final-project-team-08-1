@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: daccdb4f894862249a89957d74d920ba
+timeCreated: 1491330037
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/tmp.mat
+  uploadId: 175677

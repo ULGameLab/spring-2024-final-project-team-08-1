@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d5233f512036694a8a0e5a05c11ba49
+timeCreated: 1492711684
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Prefabs/3Dmodels/Materials/_BoatMaterial__25.mat
+  uploadId: 175677

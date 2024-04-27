@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 572ba8c66a056b6449ee22a4286ae2d0
+timeCreated: 1467387435
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/Atlas_Stains.mat
+  uploadId: 175677

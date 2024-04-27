@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30a9181c5ddd2e744b5f7b7262447714
+timeCreated: 1478163653
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Materials/Material #50.mat
+  uploadId: 175677

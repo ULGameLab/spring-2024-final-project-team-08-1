@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: afa01afbcc5e13845b6e0bfb77599cb5
+timeCreated: 1467282182
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/scene.unity
+  uploadId: 175677

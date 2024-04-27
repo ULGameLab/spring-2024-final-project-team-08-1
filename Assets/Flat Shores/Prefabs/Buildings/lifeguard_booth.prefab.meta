@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2ccfbab3a35bdb43bd71dece8d37f0f
+timeCreated: 1464278472
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Buildings/lifeguard_booth.prefab
+  uploadId: 119914

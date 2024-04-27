@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87bde05d6e95a7144bcc20ef9bb1c3e3
+timeCreated: 1464278855
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Nature/shore_underwater_turn.prefab
+  uploadId: 119914

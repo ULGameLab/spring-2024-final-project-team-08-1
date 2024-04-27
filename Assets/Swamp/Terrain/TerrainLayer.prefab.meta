@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b7a13a4dea0abf947a1db3e8d6b5d717
+timeCreated: 1477993935
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Terrain/TerrainLayer.prefab
+  uploadId: 175677

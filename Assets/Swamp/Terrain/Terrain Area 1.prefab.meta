@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 316724ded2146144b87b29741a2c11ac
+timeCreated: 1478117653
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87220
+  packageName: Swamp environment
+  packageVersion: 1.0
+  assetPath: Assets/Swamp/Terrain/Terrain Area 1.prefab
+  uploadId: 175677

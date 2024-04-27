@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8eed8602197fb2b4ca87a6fa1b64b774
+timeCreated: 1464279139
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63872
+  packageName: Flat Shores
+  packageVersion: 1.0
+  assetPath: Assets/Flat Shores/Prefabs/Props/trash_bin.prefab
+  uploadId: 119914
